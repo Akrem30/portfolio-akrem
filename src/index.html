@@ -23,15 +23,10 @@
       src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
     ></script>
 
-    
-    <!-- <script async defer src="https://buttons.github.io/buttons.js"></script> -->
   </head>
-
-  
   <body>
     <div id="top"></div>
-
-    <!-- **** Hero Section **** -->
+    <!-- Acceuil -->
     <section id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title load-hidden">
@@ -48,9 +43,9 @@
         </p>
       </div>
     </section>
-    <!-- /END Hero Section -->
+    <!-- /fin acceuil -->
 
-    <!-- **** About Section **** -->
+    <!-- **** Section à propos **** -->
     <section id="about">
       <div class="container">
         <h2 class="section-title load-hidden">À propos de moi</h2>
@@ -70,11 +65,17 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
-               Je suis étudiant dans le programme AEC développement d'applications sécuritaires au
+               Je suis étudiant dans le programme Attestastion d'études collégiales (AEC)
+               en développement d'applications sécuritaires au
                Cégep Limoilou Québec.
+               <br>
+               </p>
+               <p class="about-wrapper__info-text">
+               Langages de programmation, frameworks et outils : C#, ASP .NET Core, Javascript, Node.js, Next.js,
+                React, SQL Server,Microsoft Azure, Git, Postman.
               </p>
               <p class="about-wrapper__info-text">
-                Vous trouverez ci-dessous ma liste de projets
+                Vous trouverez ci-dessous une liste de mes projets
               </p>
               <span class="d-flex mt-3">
                 <a
@@ -91,15 +92,15 @@
         </div>
       </div>
     </section>
-    <!-- /END About Section -->
+    <!-- /fin section à propos -->
 
-    <!-- **** Projects Section **** -->
+    <!-- **** Section projets **** -->
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projets</h2>
 
-          <!--  project 1 -->
+          <!--  projet 1 -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
@@ -108,7 +109,7 @@
                   <p class="mb-4">
                     ModernRecrut est une application web qui permet aux entreprises de publier des offres d'emploi et de gérer les candidatures. 
                     L'application est développée en utilisant une architecture microservices, qui offre une grande flexibilité et une évolutivité accrue.
-                    L'application est composée de 4 API et une application MVC.
+                    L'application est composée de 4 APIs et une application MVC.
                   </p>
                 </div>
                 <a
@@ -148,9 +149,9 @@
               </div>
             </div>
           </div>
-          <!-- /END Project -->
+          <!-- /fin projet -->
 
-          <!--  project  2 -->
+          <!--  projet  2 -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
@@ -158,7 +159,7 @@
                 <div>
                   <p class="mb-4">
                     Content Manager est une application Next.js qui permet de créer, mettre à jour et supprimer des tâches à réaliser. Une fois qu'une tâche est activée, un minuteur se déclenche en haut de la page pour montrer combien de temps il reste pour terminer la tâche. 
-                    Seule une tâche peut être active à la fois.L'application communique avec une api (Content Manager API) pour stocker et mettre à jour les données
+                    Seule une tâche peut être active à la fois.L'application communique avec une api (Content Manager API) pour stocker et mettre à jour les données.
                   </p>
                 </div>
                 <a
@@ -197,9 +198,9 @@
               </div>
             </div>
           </div>
-          <!-- /END Project -->
+          <!-- /fin projet -->
 
-          <!--  project 3 -->
+          <!--  projet 3 -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
@@ -247,16 +248,18 @@
               </div>
             </div>
           </div>
-          <!-- /END Project -->
-          <!-- project 4 -->
+          <!-- /fin projet -->
+          <!-- projet 4 -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Automatiser la création de compte pour ModernRecrut</h3>
+                <h3 class="project-wrapper__text-title">Automatisation de la création de comptes sur ModernRecrut</h3>
                 <div>
                   <p class="mb-4">
-                    Un programme écrit en Python, qui utilise Selenium et chromedriver pour contrôler le navigateur et interagir avec les formulaires, sert à automatiser la création de comptes sur ModernRecrut. 
-                    Le programme génère aléatoirement des adresses e-mail et des mots de passe qui sont utilisés pour faciliter les tests de l'application.
+                    J'ai développé un programme en Python qui utilise Selenium et Chromedriver pour automatiser la création de comptes sur ModernRecrut. L'objectif de ce programme est de faciliter les tests de l'application en générant aléatoirement des adresses e-mail et des mots de passe.
+                    En contrôlant le navigateur à l'aide de Selenium et Chromedriver, le programme est capable d'interagir avec les formulaires de ModernRecrut et de remplir les champs requis pour créer un compte. 
+                    Les adresses e-mail générées aléatoirement permettent de simuler de nouveaux utilisateurs, tandis que les mots de passe aléatoires garantissent la sécurité des tests.
+                    Vous pouvez voir dans la capture vidéo un exemple d'exécution du programme.
                    
                   </p>
                 </div>
@@ -272,7 +275,7 @@
                 <p
                   class="cta-btn text-color-main cta-btn--hero"  
                 >
-                  Tags : Python ; Selenium ; chromedriver
+                  Tags : Python ; Selenium ; Chromedriver
               </p>
               </div>
             </div>
@@ -297,12 +300,12 @@
             </div>
           </div>
         </div>
-        <!-- /END Project -->
+        <!-- /fin projet -->
       </div>
     </section>
-    <!-- /END Projects Section -->
+    <!-- /fin section projets -->
 
-    <!-- **** Contact Section **** -->
+    <!-- **** Contact  **** -->
     <section id="contact">
       <div class="container">
         <h2 class="section-title">Contact</h2>
@@ -318,9 +321,9 @@
         </div>
       </div>
     </section>
-    <!-- /END Contact Section -->
+    <!-- /fin section contact -->
 
-    <!-- **** Footer Section **** -->
+    <!-- **** Footer  **** -->
     <footer class="footer navbar-static-bottom">
       <div class="container">
         <a rel="noreferrer" href="#top" class="back-to-top">
@@ -343,7 +346,7 @@
     
       </div>
     </footer>
-    <!-- /END Footer Section -->
+    <!-- /fin Footer  -->
 
     <script defer type="module" src="index.js"></script>
   </body>
